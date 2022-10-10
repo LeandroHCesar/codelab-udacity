@@ -2,11 +2,14 @@
     <string name="app_name">Codelab Udacity</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Codelab Udacity</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="dice_roller">Dice Roller</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Aprendizado de Android Kotlin</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Strings main fragments -->
+    <string name="codelab_udacity_fragment_label">Codelab Udacity</string>
+    <string name="title_main_fragment">Aprendizado de Android Kotlin</string>
+    <string name="open_dice_roller_button">Dice Roller</string>
+
+    <!-- Strings dice roller fragments -->
+    <string name="dice_roller_fragment_label">Dice Roller</string>
+    <string name="button_roll">Roll</string>
+    <string name="text_button">Let´s Roll</string>
 </resources>

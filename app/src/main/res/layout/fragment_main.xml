@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/text_title"
         style="@style/textStyle"
-        android:text="@string/hello_first_fragment"
+        android:text="@string/title_main_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -18,7 +18,7 @@
     <Button
         android:id="@+id/button_dice_roller"
         style="@style/buttonStyle"
-        android:text="@string/dice_roller"
+        android:text="@string/open_dice_roller_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_title" />
