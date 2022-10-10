@@ -1,5 +1,6 @@
 package com.leandrohc.codelabudacity
 
+import android.content.Context
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.view.inputmethod.InputMethodManager
 import com.leandrohc.codelabudacity.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -12,4 +12,21 @@
     <string name="dice_roller_fragment_label">Dice Roller</string>
     <string name="button_roll">Roll</string>
     <string name="text_button">Let´s Roll</string>
+
+    <!-- Strings about me fragments -->
+    <string name="about_me_fragment_label">About Me</string>
+    <string name="about_me_button">About Me</string>
+    <string name="text_name">Leandro Henrique</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, name is Leandro.
+    \n\nI love fish.
+    \n\nThe kind that is alive and swims around in an aquarium or river, or a loke, and definitely the ocean.
+    \nFun fact is that I have several aquariums and also a river.
+    \n\nlike eating fish, too.Raw fish. Grilled fish. Poached fish - not so much.
+    \n And sometimes I even go fishing.
+    \nAnd even less sometimes, I actually catch something.
+    \n\nI\'ll be happy to teach you how to make your own aquarium.
+    \nYou should ask someone else about fishing, though.\n\n</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="button_done">Done</string>
 </resources>

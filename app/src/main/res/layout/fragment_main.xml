@@ -22,4 +22,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+    <Button
+        android:id="@+id/button_about_me"
+        style="@style/buttonStyle"
+        android:text="@string/about_me_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_dice_roller" />
 </androidx.constraintlayout.widget.ConstraintLayout>

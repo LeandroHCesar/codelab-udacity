@@ -15,11 +15,13 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         _binding = FragmentMainBinding.bind(view)
 
         _binding!!.buttonDiceRoller.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_MainFragment_to_SecondFragment)
+        }
+        _binding!!.buttonAboutMe.setOnClickListener {
+            findNavController().navigate(R.id.action_MainFragment_to_aboutMeFragment)
         }
     }
 
