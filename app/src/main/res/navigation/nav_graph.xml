@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/MainFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/MainFragment"
         android:name="com.leandrohc.codelabudacity.MainFragment"
         android:label="@string/codelab_udacity_fragment_label"
         tools:layout="@layout/fragment_main">
@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_MainFragment_to_aboutMeFragment"
             app:destination="@id/aboutMeFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_colorMyViews"
+            app:destination="@id/colorMyViews" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -26,7 +29,7 @@
 
         <action
             android:id="@+id/action_SecondFragment_to_MainFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/MainFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutMeFragment"
@@ -35,6 +38,15 @@
         tools:layout="@layout/fragment_about_me" >
         <action
             android:id="@+id/action_aboutMeFragment_to_MainFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/MainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/colorMyViews"
+        android:name="com.leandrohc.codelabudacity.apps.ColorMyViews"
+        android:label="@string/fragment_color_my_views_label"
+        tools:layout="@layout/fragment_color_my_views" >
+        <action
+            android:id="@+id/action_colorMyViews_to_MainFragment"
+            app:destination="@id/MainFragment" />
     </fragment>
 </navigation>

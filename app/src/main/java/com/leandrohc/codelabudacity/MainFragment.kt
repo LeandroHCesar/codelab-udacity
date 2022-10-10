@@ -23,6 +23,9 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         _binding!!.buttonAboutMe.setOnClickListener {
             findNavController().navigate(R.id.action_MainFragment_to_aboutMeFragment)
         }
+        _binding!!.buttonColorMyViews.setOnClickListener {
+            findNavController().navigate(R.id.action_MainFragment_to_colorMyViews)
+        }
     }
 
     override fun onDestroyView() {
