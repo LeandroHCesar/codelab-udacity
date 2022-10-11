@@ -37,5 +37,14 @@
         android:text="@string/color_my_views_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_about_me" />
+        app:layout_constraintTop_toBottomOf="@id/button_about_me"/>
+
+    <Button
+        android:id="@+id/button_trivia"
+        style="@style/buttonStyle"
+        android:text="@string/app_trivia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_color_my_views"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

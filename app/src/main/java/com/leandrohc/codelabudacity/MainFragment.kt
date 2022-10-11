@@ -1,5 +1,6 @@
 package com.leandrohc.codelabudacity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
@@ -26,6 +27,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         _binding!!.buttonColorMyViews.setOnClickListener {
             findNavController().navigate(R.id.action_MainFragment_to_colorMyViews)
         }
+        _binding!!.buttonTrivia.setOnClickListener {  }
     }
 
     override fun onDestroyView() {
